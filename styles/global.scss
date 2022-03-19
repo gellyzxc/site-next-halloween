@@ -8,6 +8,7 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
+    color: white;
 }
 
 html, body, #__next {
@@ -36,7 +37,6 @@ html, body, #__next {
     }
 
     .site__menu {
-        color: white;
         height: 80px;
         .site__logo {
             display: flex;
@@ -49,11 +49,12 @@ html, body, #__next {
             .site__logo_name {
                 display: flex;
                 margin-left: 2vh;
+                font-size: x-large;
             }
             
             .site__logo_pic {
                 display: flex;
-                height: 60px;
+                height: 40px;
             }
         }
         .site__buttons_nav {
@@ -99,8 +100,14 @@ html, body, #__next {
         
         .content__slider {
             height: 460px;
-            border: 2px solid magenta;
+            // border: 2px solid magenta;
         }
     }
 
+}
+
+.ya_daun {
+    display: flex;
+    height: 460px;
+    width: 986px;
 }

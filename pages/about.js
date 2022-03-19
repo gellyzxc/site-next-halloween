@@ -1,19 +1,20 @@
+import Link from 'next/link'
 export default function About() {
   return(
     <div className="site">
       <div className="site__wrapper">
       <div className="site__menu">
-          <div className="site__logo">
+          <Link href="/"><a><div className="site__logo">
             <img className="site__logo_pic" src="/img/logo.png"></img>
             <p className="site__logo_name">gellyzxc</p>
-            </div>
+            </div></a></Link>
             <div className="site__buttons_nav">
               <div className="site__buttons_in">
-              <p>Home</p>
-              <p>Home</p>
-              <p>Home</p>
-              <p>Home</p>
-              <div className="rounded_btn"><p>SUPPORT</p></div>
+              <Link href="/"><a>Home</a></Link>
+              <Link href="/about"><a>About</a></Link>
+              <Link href="/candy"><a>Candy</a></Link>
+              <Link href="/new"><a>New</a></Link>
+              <div className="rounded_btn"><Link href="/support"><a>SUPPORT</a></Link></div>
               </div>
           </div>
       </div>
