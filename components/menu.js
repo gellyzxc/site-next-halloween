@@ -6,7 +6,7 @@ export default function Menu() {
         <div className="site__menu">
         <Link href="/"><a><div className="site__logo">
             <Image src={logo} width="48" height="48"  className="site__logo_pic" ></Image>
-          <p className="site__logo_name">sava shwarcev</p>
+          <p className="site__logo_name">gellyzxc</p>
           </div></a></Link>
           <div className="site__buttons_nav">
             <div className="site__buttons_in">
