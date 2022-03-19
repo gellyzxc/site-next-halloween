@@ -2,13 +2,14 @@
     --background: linear-gradient(66deg, rgba(255,244,13,1) 0%, rgba(223,255,27,1) 35%, rgba(0,70,3,1) 100%);
     --body-font: 'Poppins', sans-serif;
 }
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
-    color: white;
 }
 
 html, body, #__next {
@@ -50,11 +51,7 @@ html, body, #__next {
                 display: flex;
                 margin-left: 2vh;
                 font-size: x-large;
-            }
-            
-            .site__logo_pic {
-                display: flex;
-                height: 40px;
+                color: white;
             }
         }
         .site__buttons_nav {
@@ -75,6 +72,10 @@ html, body, #__next {
                 align-items: center;
                 justify-content: space-around;
                 color: white;
+
+                a {
+                    color: white;
+                }
 
                 .rounded_btn {
                     border: 2px solid white;
@@ -103,13 +104,8 @@ html, body, #__next {
         
         .content__slider {
             height: 460px;
-            // border: 2px solid magenta;
+            border: 2px dotted rgb(0, 0, 0);
         }
     }
 
-}
-
-.ya_daun {
-    height: 460px;
-    width: 986px;
 }

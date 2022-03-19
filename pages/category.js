@@ -1,6 +1,6 @@
-import Menu from '../components/menu';
-import Slider1 from '../components/slider1';
-export default function Index() {
+import Menu from "../components/menu";
+
+export default function Category() {
   return(
     <div className="site">
       <div className="site__wrapper">
@@ -8,7 +8,7 @@ export default function Index() {
       <Menu />
       </div>
       <div className="site__content">
-        <Slider1 />
+        <div className="content__slider">categoty</div>
       </div>
       </div>
     </div>
