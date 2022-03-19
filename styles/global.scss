@@ -1,17 +1,19 @@
 :root {
     --background: linear-gradient(66deg, rgba(255,244,13,1) 0%, rgba(223,255,27,1) 35%, rgba(0,70,3,1) 100%);
+    --body-font: 'Poppins', sans-serif;
 }
-
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;900&display=swap');
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-decoration: none;
 }
 
 html, body, #__next {
     width: 100%;
     height: 100%;
+    font-family: var(--body-font);
 }
 
 .site {
@@ -34,7 +36,58 @@ html, body, #__next {
     }
 
     .site__menu {
+        color: white;
         height: 80px;
+        .site__logo {
+            display: flex;
+            width: 300px;
+            height: 80px;
+            float: left;
+            flex-direction: row;
+            align-items: center;
+
+            .site__logo_name {
+                display: flex;
+                margin-left: 2vh;
+            }
+            
+            .site__logo_pic {
+                display: flex;
+                height: 60px;
+            }
+        }
+        .site__buttons_nav {
+            display: flex;
+            width: 686px;
+            height: 80px;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            align-items: center;
+            justify-content: flex-end;
+            color: white;
+            
+            .site__buttons_in {
+                display: flex;
+                height: 80px;
+                width: 386px;
+                flex-direction: row;
+                align-items: center;
+                justify-content: space-around;
+                color: white;
+
+                .rounded_btn {
+                    border: 2px solid white;
+                    border-radius: 30px 30px;
+                    padding: 10px;
+                    transition: 0.7s;
+                }
+                
+                .rounded_btn:hover {
+                    background-color: rgba(255, 255, 255, 0.479);
+                    transition: 0.7s;
+                }
+            }
+        }
     }
 
     .site__content {
@@ -49,4 +102,5 @@ html, body, #__next {
             border: 2px solid magenta;
         }
     }
+
 }

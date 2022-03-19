@@ -1,5 +1,4 @@
-import Link from 'next/link'
-export default function Index() {
+export default function About() {
   return(
     <div className="site">
       <div className="site__wrapper">
@@ -10,7 +9,7 @@ export default function Index() {
             </div>
             <div className="site__buttons_nav">
               <div className="site__buttons_in">
-              <Link href="/about"><a>About</a></Link>
+              <p>Home</p>
               <p>Home</p>
               <p>Home</p>
               <p>Home</p>
@@ -19,7 +18,7 @@ export default function Index() {
           </div>
       </div>
       <div className="site__content">
-        <div className="content__slider">slaider</div>
+        <div className="content__slider">ASDASDAS</div>
       </div>
       </div>
     </div>
