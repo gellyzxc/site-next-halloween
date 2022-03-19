@@ -1,6 +1,6 @@
-import big_image from "../img/home1-img.png"
+import big_image from "../img/home3-img.png"
 import Image from "next/image";
-export default function Slider1() {
+export default function Slider3() {
     return(
         <div className="content__slider">
             <div className="content__slider_image">

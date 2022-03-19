@@ -1,5 +1,5 @@
 :root {
-    --background: linear-gradient(66deg, rgba(255,244,13,1) 0%, rgba(223,255,27,1) 35%, rgba(0,70,3,1) 100%);
+    --background: linear-gradient(90deg, hsl(104, 28%, 40%) 0%, hsl(58, 28%, 40%) 100%);
     --body-font: 'Poppins', sans-serif;
 }
 
@@ -95,16 +95,231 @@ html, body, #__next {
         }
     }
 
+    .content__category {
+        display: flex;
+        height: 560px;
+        // border: 2px dotted black;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-content: flex-start;
+
+        .content__category_text {
+            width: 986px;
+            height: 184px;
+            // border: 1px solid green;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            align-content: flex-start;
+            justify-content: center;
+
+            .content__category_text_first {
+                font-weight: 450;
+                font-size: 40px;
+                color: white;
+            }
+        }
+
+        .content__category_images {
+            display: flex;
+            width: 986px;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            align-items: flex-start;
+            align-content: flex-start;
+            justify-content: space-around;
+
+        }
+
+        .content__category_text_small {
+            display: flex;
+            margin-top: 30px;
+            width: 986px;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            align-items: flex-start;
+            justify-content: space-around;
+
+            .content__category_text_1, .content__category_text_2, .content__category_text_2 {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                
+                .content__category_image_undertext {
+                    font-size: 20px;
+                    font-weight: 450;
+                    color: white;
+                    margin-bottom: 10px;
+                }
+
+                .content__category_image_undertext_sm {
+                    color: white;
+                }
+            }
+        }
+    }
+
     .site__content {
         height: 100%;
         display: flex;
         flex-direction: column;
         align-items: stretch;
+        flex-wrap: nowrap;
         justify-content: center;
         
+
+        .first {
+            position: absolute;
+            animation: cycle 15s linear infinite;
+        }
+
+        .second {
+            position: absolute;
+            animation: cycletwo 15s linear infinite;
+        }
+
+
+        .third {
+            position: absolute;
+            animation: cyclethree  15s linear infinite;
+        }
+
+        @keyframes cycle {
+            0%  { opacity: 0; }
+            5% {opacity: 1;}
+            27% { opacity: 1;}
+            33%  { opacity: 0; }
+            100% { opacity: 0;}
+         }
+         
+         @keyframes cycletwo {
+            0% {opacity: 0;}
+            27% { opacity: 0;}
+            33% {opacity: 1;}
+            61%  {  opacity: 1; }
+            66% {opacity: 0;}
+            100% { opacity: 0;}
+         }
+         
+         @keyframes cyclethree {
+            0%  {  opacity: 0; }
+            61% { opacity: 0;}
+            66% {  opacity: 1; }
+            95% {opacity: 1;}
+            100% {  opacity: 0; }
+         }
+        
         .content__slider {
-            height: 460px;
-            border: 2px dotted rgb(0, 0, 0);
+            // // display: flex;
+            // height: 560px;
+            // // border: 2px dotted black;
+            // flex-direction: row;
+            // flex-wrap: nowrap;
+            // align-items: center;
+
+            .site__content_slider_first {
+                width:0;
+                height:0;
+                overflow:hidden;
+            }
+
+            .site__content_slider_second {
+                width:0;
+                height:0;
+                overflow:hidden;
+            }
+
+            .site__content_slider_third {
+                width:0;
+                height:0;
+                overflow:hidden;
+            }
+
+            .content__slider_image {
+                height: 560px;
+                width: 520px;
+                display: flex;
+                flex-direction: row;
+                flex-wrap: nowrap;
+                justify-content: flex-start;
+                align-items: flex-start;
+                align-content: stretch;
+                float: left;
+            }
+
+            .content__slider_main_block {
+                height: 560px;
+                width: 466px;
+                display: flex;
+                margin-left: 10px;
+                // border: 1px dotted red;
+                flex-direction: column;
+
+                .content__slider_main_text_1 {
+                    font-size: 25px;
+                    float: right;
+                    color: white;
+                    
+                    .slider__first_text {
+                        font-weight: 500;
+                    }
+                }
+                
+                .content__slider_main_text_2 {
+                    float: right;
+                    font-size: 60px;
+                    height: 210px;
+
+                    .slider__second_text {
+                        height: 70px;
+                        color: white;
+                        font-weight: 900;
+                    }
+
+                }
+
+                .content__slider_main_text_3 {
+                    margin-top: 40px;
+
+                    .slider__thrird_text {
+                        color: white;
+                        opacity: 60%;
+                    }
+                }
+
+                .content__slider_main_buttons {
+                    height: 190px;
+                    display: flex;
+                    align-items: center;
+                    flex-direction: row;
+                    flex-wrap: nowrap;
+                    justify-content: space-between;
+
+                    .slider__button_first {
+
+
+                        .slider__button_first_in {
+                            background-color: #F4511E;
+                            border-radius: 8px 8px;
+                            padding: 13px;
+                            font-weight: 600;
+                            color: white;
+                        }
+
+                    }
+
+                    .slider__button_second {
+
+
+                        .slider__button_second_in {
+                            color: white;
+                            font-weight: 600;
+                        }
+                    }
+
+                }
+                
+            }
         }
     }
 

@@ -1,0 +1,112 @@
+.content__slider {
+    // // display: flex;
+    // height: 560px;
+    // // border: 2px dotted black;
+    // flex-direction: row;
+    // flex-wrap: nowrap;
+    // align-items: center;
+
+    .site__content_slider_first {
+        width:0;
+        height:0;
+        overflow:hidden;
+    }
+
+    .site__content_slider_second {
+        width:0;
+        height:0;
+        overflow:hidden;
+    }
+
+    .site__content_slider_third {
+        width:0;
+        height:0;
+        overflow:hidden;
+    }
+
+    .content__slider_image {
+        height: 560px;
+        width: 520px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        align-items: flex-start;
+        align-content: stretch;
+        float: left;
+    }
+
+    .content__slider_main_block {
+        height: 560px;
+        width: 466px;
+        display: flex;
+        margin-left: 10px;
+        // border: 1px dotted red;
+        flex-direction: column;
+
+        .content__slider_main_text_1 {
+            font-size: 25px;
+            float: right;
+            color: white;
+            
+            .slider__first_text {
+                font-weight: 500;
+            }
+        }
+        
+        .content__slider_main_text_2 {
+            float: right;
+            font-size: 60px;
+            height: 210px;
+
+            .slider__second_text {
+                height: 70px;
+                color: white;
+                font-weight: 900;
+            }
+
+        }
+
+        .content__slider_main_text_3 {
+            margin-top: 40px;
+
+            .slider__thrird_text {
+                color: white;
+                opacity: 60%;
+            }
+        }
+
+        .content__slider_main_buttons {
+            height: 190px;
+            display: flex;
+            align-items: center;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            justify-content: space-between;
+
+            .slider__button_first {
+
+
+                .slider__button_first_in {
+                    background-color: #F4511E;
+                    border-radius: 8px 8px;
+                    padding: 13px;
+                    font-weight: 600;
+                    color: white;
+                }
+
+            }
+
+            .slider__button_second {
+
+
+                .slider__button_second_in {
+                    color: white;
+                    font-weight: 600;
+                }
+            }
+
+        }
+        
+    }
+}
