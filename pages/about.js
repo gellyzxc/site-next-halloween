@@ -1,4 +1,5 @@
 import Menu from '../components/menu';
+import Footer from "../components/footer";
 import AboutComponent from '../components/about';
 export default function About() {
   return(
@@ -10,6 +11,7 @@ export default function About() {
       <div className="site__content">
         <AboutComponent />
       </div>
+      <Footer />
       </div>
     </div>
     

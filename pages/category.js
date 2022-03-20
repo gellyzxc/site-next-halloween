@@ -1,4 +1,5 @@
 import Menu from "../components/menu";
+import Footer from "../components/footer";
 import Image from 'next/image'
 import pic1 from "../img/category1-img.png"
 import pic2 from "../img/category2-img.png"
@@ -49,6 +50,7 @@ export default function Category() {
           </div>
         </div>
       </div>
+      <Footer />
       </div>
     </div>
 
