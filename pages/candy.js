@@ -1,6 +1,11 @@
 import Footer from "../components/footer";
 import Menu from "../components/menu";
 import tile1 from "../img/trick-treat1-img.png"
+import tile2 from "../img/trick-treat2-img.png"
+import tile3 from "../img/trick-treat3-img.png"
+import tile4 from "../img/trick-treat4-img.png"
+import tile5 from "../img/trick-treat5-img.png"
+import tile6 from "../img/trick-treat6-img.png"
 import Image from 'next/image'
 
 export default function Candy() {
@@ -33,7 +38,7 @@ export default function Candy() {
                         <div className="candy_in_second">
                         <div className="candy_tile">
                         <div className="tile_in_image">
-                                <Image src={tile1} height={140} width={150} />
+                                <Image src={tile2} height={140} width={150} />
                             </div>
                             <div className="tile_in_text_big">
                                 <p className="tile_good_name">4urka</p>
@@ -46,7 +51,7 @@ export default function Candy() {
                         <div className="candy_in_thrird">
                         <div className="candy_tile">
                         <div className="tile_in_image">
-                                <Image src={tile1} height={140} width={150} />
+                                <Image src={tile3} height={140} width={150} />
                             </div>
                             <div className="tile_in_text_big">
                                 <p className="tile_good_name">4urka</p>
@@ -61,7 +66,7 @@ export default function Candy() {
                         <div className="candy_in_first">
                         <div className="candy_tile">
                         <div className="tile_in_image">
-                                <Image src={tile1} height={140} width={150} />
+                                <Image src={tile4} height={140} width={150} />
                             </div>
                             <div className="tile_in_text_big">
                                 <p className="tile_good_name">4urka</p>
@@ -74,7 +79,7 @@ export default function Candy() {
                         <div className="candy_in_second">
                         <div className="candy_tile">
                         <div className="tile_in_image">
-                                <Image src={tile1} height={140} width={150} />
+                                <Image src={tile5} height={140} width={150} />
                             </div>
                             <div className="tile_in_text_big">
                                 <p className="tile_good_name">4urka</p>
@@ -87,7 +92,7 @@ export default function Candy() {
                         <div className="candy_in_thrird">
                         <div className="candy_tile">
                         <div className="tile_in_image">
-                                <Image src={tile1} height={140} width={150} />
+                                <Image src={tile6} height={140} width={150} />
                             </div>
                             <div className="tile_in_text_big">
                                 <p className="tile_good_name">4urka</p>
