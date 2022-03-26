@@ -180,7 +180,7 @@ body,
 
                     .candy_tile {
                         background-color: rgba(0,0,0,20%);
-                        border-radius: 20px;
+                        border-radius: 30px;
                         width: 200px;
                         height: 228px;
                         display: flex;
@@ -191,6 +191,15 @@ body,
 
                         }
 
+                        .tile_good_subtitle {
+
+                            .tile_good_subtitle_in {
+                                margin-top: 2px;
+                                font-size: 13px;
+                                opacity: 80%;
+                            }
+                        }
+
                         .tile_in_text_big {
 
                             .tile_good_name {
@@ -199,7 +208,7 @@ body,
                         }
 
                         .tile_in_cost {
-                            margin-top: 10px;
+                            margin-top: 2px;
                             font-weight: 600;
                         }
                     }

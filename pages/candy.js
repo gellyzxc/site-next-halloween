@@ -30,6 +30,9 @@ export default function Candy() {
                             <div className="tile_in_text_big">
                                 <p className="tile_good_name">4urka</p>
                             </div>
+                            <div className="tile_good_subtitle">
+                                <p className="tile_good_subtitle_in">snth</p>
+                            </div>
                             <div className="tile_in_cost">
                                 <p className="tile_good_cost">49.99$</p>
                             </div>
@@ -43,6 +46,9 @@ export default function Candy() {
                             <div className="tile_in_text_big">
                                 <p className="tile_good_name">4urka</p>
                             </div>
+                            <div className="tile_good_subtitle">
+                                <p className="tile_good_subtitle_in">snth</p>
+                            </div>
                             <div className="tile_in_cost">
                                 <p className="tile_good_cost">49.99$</p>
                             </div>
@@ -55,6 +61,9 @@ export default function Candy() {
                             </div>
                             <div className="tile_in_text_big">
                                 <p className="tile_good_name">4urka</p>
+                            </div>
+                            <div className="tile_good_subtitle">
+                                <p className="tile_good_subtitle_in">snth</p>
                             </div>
                             <div className="tile_in_cost">
                                 <p className="tile_good_cost">49.99$</p>
@@ -71,6 +80,9 @@ export default function Candy() {
                             <div className="tile_in_text_big">
                                 <p className="tile_good_name">4urka</p>
                             </div>
+                            <div className="tile_good_subtitle">
+                                <p className="tile_good_subtitle_in">snth</p>
+                            </div>
                             <div className="tile_in_cost">
                                 <p className="tile_good_cost">49.99$</p>
                             </div>
@@ -84,6 +96,9 @@ export default function Candy() {
                             <div className="tile_in_text_big">
                                 <p className="tile_good_name">4urka</p>
                             </div>
+                            <div className="tile_good_subtitle">
+                                <p className="tile_good_subtitle_in">snth</p>
+                            </div>
                             <div className="tile_in_cost">
                                 <p className="tile_good_cost">49.99$</p>
                             </div>
@@ -96,6 +111,9 @@ export default function Candy() {
                             </div>
                             <div className="tile_in_text_big">
                                 <p className="tile_good_name">4urka</p>
+                            </div>
+                            <div className="tile_good_subtitle">
+                                <p className="tile_good_subtitle_in">snth</p>
                             </div>
                             <div className="tile_in_cost">
                                 <p className="tile_good_cost">49.99$</p>
