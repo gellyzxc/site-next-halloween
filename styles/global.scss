@@ -148,6 +148,79 @@ body,
         //     100% {  opacity: 0; }
         //  }
 
+        .candy_content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 986px;
+            height: 560px;
+            color: white;
+
+            .candy_big_text {
+                display: flex;
+                width: 986px;
+                flex-direction: row;
+                justify-content: center;
+                font-size: 35px;
+                font-weight: 500;
+            }
+
+            .candy_tiles {
+                height: 507px;
+                width: 986px;
+
+                .candy_tiles_first_row, .candy_tiles_second_row {
+                    margin-top: 30px;
+                    height: 228px;
+                    width: 986px;
+                    display: flex;
+                    flex-direction: row;
+                    flex-wrap: nowrap;
+                    justify-content: center;
+
+                    .candy_tile {
+                        background-color: rgba(0,0,0,20%);
+                        border-radius: 20px;
+                        width: 200px;
+                        height: 228px;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+
+                        .tile_in_image {
+
+                        }
+
+                        .tile_in_text_big {
+
+                            .tile_good_name {
+                                font-weight: 500;
+                            }
+                        }
+
+                        .tile_in_cost {
+                            margin-top: 10px;
+                            font-weight: 600;
+                        }
+                    }
+
+                    .candy_in_first, .candy_in_thrird {
+                        width: 200px;
+                        height: 228px;
+                        // border: 1px solid black;
+                    }
+
+                    .candy_in_second {
+                        // border: 1px solid black;
+                        width: 200px;
+                        height: 228px;
+                        margin-left: 50px;
+                        margin-right: 50px;
+                    }
+                }
+            }
+        }
+
         .content__about {
             display: flex;
             height: 560px;
