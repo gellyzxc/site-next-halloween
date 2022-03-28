@@ -13,7 +13,8 @@ export default function Menu() {
             <Link href="/"><a>Home</a></Link>
             <Link href="/about"><a>About</a></Link>
             <Link href="/category"><a>Category</a></Link>
-            <div className="rounded_btn"><Link href="/support"><a>SUPPORT</a></Link></div>
+            <Link href="/candy"><a>Candy</a></Link>
+            {/* <div className="rounded_btn"><Link href="/support"><a>SUPPORT</a></Link></div> */}
             </div>
         </div>
         </div>

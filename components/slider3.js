@@ -27,7 +27,7 @@ export default function Slider3() {
             <p className="slider__button_first_in">Buy now</p>
           </a>
           <a className="slider__button_second">
-            <p className="slider__button_second_in">NIGGER &nbsp; &rarr;</p>
+            <p className="slider__button_second_in">MORE &nbsp; &rarr;</p>
           </a>
         </div>
       </div>

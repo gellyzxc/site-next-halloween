@@ -31,7 +31,7 @@ export default function Slider1() {
           </Link>
           <Link href="/about">
             <a className="slider__button_second">
-              <p className="slider__button_second_in">NIGGER &nbsp; &rarr;</p>
+              <p className="slider__button_second_in">MORE &nbsp; &rarr;</p>
             </a>
           </Link>
         </div>
