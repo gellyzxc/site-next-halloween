@@ -3,7 +3,7 @@ import Menu from "../components/menu";
 import SimpleSlider from "../components/slide";
 export default function Index() {
   return (
-    <><title>Halloween Store</title><div className="site">
+    <><title>Halloween Store!</title><div className="site">
       <div className="site__wrapper">
         <div className="site__menu">
           <Menu />
